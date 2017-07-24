@@ -6,7 +6,7 @@ name := "mc-price"
 
 organization := "com.mcprice"
 
-version := "2.5"
+version := "0.1"
 
 scalaVersion := "2.11.11"
 
