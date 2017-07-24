@@ -1,0 +1,1 @@
+addSbtPlugin("com.typesafe.sbt" % "sbt-uglify" % "1.0.3")

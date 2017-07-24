@@ -1,0 +1,60 @@
+@media(max-width:767px) {
+    #dave_and_elise {
+        height: 400px;
+    }
+    .cover-text > h1 {
+        font-size: 40px;
+        padding-top: 2em;
+    }
+    .cover-text > h2 {
+        font-size: 30px;
+    }
+    .navbar {
+        min-height: 150px;
+    }  
+}
+@media(min-width:768px) {
+    #dave_and_elise {
+        height: 400px;
+    }
+    .cover-text > h1 {
+        font-size: 50px;
+        padding-top: 2em;
+    }
+    .cover-text > h2 {
+        font-size: 40px;
+    }
+    .navbar {
+        min-height: 150px;
+    }  
+}
+@media (min-width:992px) {
+    #dave_and_elise {
+        height: 600px;
+    }
+    .cover-text > h1 {
+        font-size: 60px;
+        padding-top: 3em;
+    }
+    .cover-text > h2 {
+        font-size: 48px;
+    }
+    .navbar {
+        min-height: 200px;
+    }  
+}
+@media (min-width:1200px) {
+    #dave_and_elise {
+        height: 800px;
+    }
+    .cover-text > h1 {
+        font-size: 70px;
+        padding-top: 4em;
+    }
+    .cover-text > h2 {
+        font-size: 58px;
+    }
+    .navbar {
+        min-height: 200px;
+    }    
+}
