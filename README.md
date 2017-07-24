@@ -4,7 +4,7 @@
 
 ## Overview
 
-This web application is served by the Jetty application server.  Nginx is the web server that sits in front of it.  Static assets, like the PDF files, are served from the filesystem by Nginx.  The props file under ```src/main/resouces/props/production.default.props``` contains the relative filesystem path for the PDF files and also specifies the name of these files.  This allows the content manage system to upload revised files without the user needing to worry about specifying the correct name.
+This web application is served by the Jetty application server.  Nginx is the web server that sits in front of it.  
 
 Presently, the database layer is not in use.  However, I left the hooks for it incase I need it in the future.
 
