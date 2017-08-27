@@ -4,7 +4,7 @@
 
 ## Overview
 
-This web application is served by the Jetty application server.  Nginx is the web server that sits in front of it.  
+This web application is served by the Jetty application server.  Nginx is the web server that sits in front of it.
 
 Presently, the database layer is not in use.  However, I left the hooks for it incase I need it in the future.
 
