@@ -96,10 +96,12 @@ object Site {
   val our_story = Menu.i("Our Story") / "index" >> LocGroup("main")
   val our_wedding = Menu.i("Our Wedding") / "our-wedding" >> LocGroup("main")
   val hotel = Menu.i("Accommodations") / "accommodations" >> LocGroup("main")
+  val registry = Menu.i("Registry") / "registry" >> LocGroup("main")
 
   def sitemap = SiteMap(
     our_story,
     our_wedding,
-    hotel
+    hotel,
+    registry
   )
 }
