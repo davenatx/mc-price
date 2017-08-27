@@ -2,9 +2,17 @@
     #dave_and_elise {
         height: 400px;
     }
+    #the_springs {
+        height: 400px;
+    }
+    #hotel {
+        height: 400px;
+    }
+    .cover-text {
+        margin-top: 8em;
+    }
     .cover-text > h1 {
         font-size: 40px;
-        padding-top: 2em;
     }
     .cover-text > h2 {
         font-size: 30px;
@@ -17,9 +25,17 @@
     #dave_and_elise {
         height: 400px;
     }
+    #the_springs {
+        height: 400px;
+    }
+    #hotel {
+        height: 400px;
+    }
+    .cover-text {
+        margin-top: 8em;
+    }
     .cover-text > h1 {
         font-size: 50px;
-        padding-top: 2em;
     }
     .cover-text > h2 {
         font-size: 40px;
@@ -32,9 +48,17 @@
     #dave_and_elise {
         height: 600px;
     }
+    #the_springs {
+        height: 600px;
+    }
+    #hotel {
+        height: 600px;
+    }
+    .cover-text {
+        margin-top: 10em;
+    }
     .cover-text > h1 {
         font-size: 60px;
-        padding-top: 3em;
     }
     .cover-text > h2 {
         font-size: 48px;
@@ -47,9 +71,17 @@
     #dave_and_elise {
         height: 650px;
     }
+    #the_springs {
+        height: 650px;
+    }
+    #hotel {
+        height: 650px;
+    }
+    .cover-text {
+        margin-top: 15em;
+    }
     .cover-text > h1 {
         font-size: 70px;
-        padding-top: 4em;
     }
     .cover-text > h2 {
         font-size: 58px;

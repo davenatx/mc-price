@@ -93,9 +93,13 @@ class Boot extends Loggable {
 // SiteMap
 object Site {
 
-  val home = Menu.i("Home") / "index" >> LocGroup("main")
+  val our_story = Menu.i("Our Story") / "index" >> LocGroup("main")
+  val our_wedding = Menu.i("Our Wedding") / "our-wedding" >> LocGroup("main")
+  val hotel = Menu.i("Accommodations") / "accommodations" >> LocGroup("main")
 
   def sitemap = SiteMap(
-    home
+    our_story,
+    our_wedding,
+    hotel
   )
 }
