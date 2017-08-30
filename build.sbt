@@ -47,6 +47,9 @@ LessKeys.compress in Assets := true
 // Main less file
 includeFilter in (Assets, LessKeys.less):= "styles.less"
 
+//sbt-web pipeline states
+pipelineStages := Seq(htmlMinifier)
+
 // xsbt-web-plugin - copy css and js assets to Web App Directory
 webappPostProcess := {
 	webAppDir =>
@@ -63,5 +66,12 @@ webappPostProcess := {
     IO.copyFile(
       baseDirectory.value / "src" / "main" / "resources" / "props" / "production.default.props",
       webAppDir / "WEB-INF" / "classes" / "props" / "production.default.props"
+    )
+    // Copy Lift minified html to Web App Directory
+    IO.copyDirectory(
+      target.value / "web" / "htmlMinifier" / "build" / "lift",
+      webAppDir,
+      true,
+      true
     )
 }

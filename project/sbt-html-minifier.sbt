@@ -1,0 +1,1 @@
+addSbtPlugin("com.slidingautonomy.sbt" % "sbt-html-minifier" % "1.0.0")
