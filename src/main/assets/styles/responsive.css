@@ -1,15 +1,15 @@
 @media(max-width:767px) {
-    #dave_and_elise1 {
-        height: 400px;
+    .dave_and_elise1 {
+        height: 300px;
     }
-    #the_springs {
-        height: 400px;
+    .the_springs {
+        height: 300px;
     }
-    #hotel {
-        height: 400px;
+    .hotel {
+        height: 300px;
     }
-    #dave_and_elise2 {
-        height: 400px;
+    .dave_and_elise2 {
+        height: 300px;
     }
     .cover-text {
         margin-top: 8em;
@@ -25,17 +25,17 @@
     }  
 }
 @media(min-width:768px) {
-    #dave_and_elise1 {
-        height: 400px;
+    .dave_and_elise1 {
+        height: 350px;
     }
-    #the_springs {
-        height: 400px;
+    .the_springs {
+        height: 350px;
     }
-    #hotel {
-        height: 400px;
+    .hotel {
+        height: 350px;
     }
-    #dave_and_elise2 {
-        height: 400px;
+    .dave_and_elise2 {
+        height: 350px;
     }
     .cover-text {
         margin-top: 8em;
@@ -51,17 +51,17 @@
     }  
 }
 @media (min-width:992px) {
-    #dave_and_elise1 {
-        height: 600px;
+    .dave_and_elise1 {
+        height: 400px;
     }
-    #the_springs {
-        height: 600px;
+    .the_springs {
+        height: 400px;
     }
-    #hotel {
-        height: 600px;
+    .hotel {
+        height: 400px;
     }
-    #dave_and_elise2 {
-        height: 600px;
+    .dave_and_elise2 {
+        height: 400px;
     }
     .cover-text {
         margin-top: 10em;
@@ -77,17 +77,17 @@
     }  
 }
 @media (min-width:1200px) {
-    #dave_and_elise1 {
-        height: 650px;
+    .dave_and_elise1 {
+        height: 500px;
     }
-    #the_springs {
-        height: 650px;
+    .the_springs {
+        height: 500px;
     }
-    #hotel {
-        height: 650px;
+    .hotel {
+        height: 500px;
     }
-    #dave_and_elise2 {
-        height: 650px;
+    .dave_and_elise2 {
+        height: 500px;
     }
     .cover-text {
         margin-top: 15em;
