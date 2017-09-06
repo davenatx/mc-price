@@ -77,7 +77,8 @@ class Boot extends Loggable {
         ),
         defaultSources = List(
           ContentSourceRestriction.Scheme("blob"),
-          ContentSourceRestriction.Self
+          ContentSourceRestriction.Self,
+          ContentSourceRestriction.Host("www.google.com")
         )
       )))
     }
