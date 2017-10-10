@@ -51,6 +51,10 @@ lift_proto*
 .ipr
 .iws
 .idea
+
+# node
+node_modules
+
 # PDF Directory
 pdf
 
